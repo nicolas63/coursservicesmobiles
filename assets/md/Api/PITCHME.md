@@ -49,7 +49,6 @@ Comment créer une API en asp.net core
 @snapend
 
 
-@snap[east span-70]
 ```javascript
 // Include http module.
 var http = require("http");
@@ -76,4 +75,3 @@ http.createServer(function (request, response) {
 @[1,2](You can present code inlined within your slide markdown too.)
 @[9-17](Your code is displayed using code-syntax highlighting just like your IDE.)
 @[19-20](Again, all of this without ever leaving your slideshow.)
-@snapend

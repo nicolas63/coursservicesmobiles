@@ -1,5 +1,4 @@
-+++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
-
+---?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
 @snap[west text-white]
 @size[3em](1.)
 @snapend
@@ -10,10 +9,10 @@ Présentation du projet et de la notation
 
 @snap[east span-70]
 
-Un projet commun avec le cours de Monsieur Chevaldonné
+Un projet commun avec le cours de Monsieur Chevaldonné <br/>
 
-[Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/Cours2019/Notation.md)
+[Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/Cours2019/Notation.md) <br/>
 
-[Un exemple de projet](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)
+[Un exemple de projet](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)<br/>
 @snapend
 

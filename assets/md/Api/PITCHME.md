@@ -15,9 +15,8 @@ Un projet commun avec<br/>le cours de Windows phone<br/><br/>
 [Un exemple de projet](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)<br/>
 @snapend
 
-+++
 
----?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
++++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
 @snap[west text-white]
 @size[3em](2.)
 @snapend
@@ -36,16 +35,10 @@ Facade permettant d'exposé des données
 
 @snapend
 
-+++
++++?image=template/img/bg/blue.jpg&position=top&size=100% 20%
 
----?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
-@snap[west text-white]
-@size[3em](3.)
-@snapend
-
-
-@snap[north-east template-note text-gray]
-Comment créer une API en asp.net core 
+@snap[north text-white span-100]
+@size[1.5em](Comment créer une API en asp.net core )
 @snapend
 
 

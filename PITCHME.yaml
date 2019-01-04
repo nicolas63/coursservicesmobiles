@@ -1,7 +1,7 @@
 theme : night
 
 footnote : "IUT - Cours Services Mobiles 2019"
-
+highlight : night
 layout : center
 
 transition : none

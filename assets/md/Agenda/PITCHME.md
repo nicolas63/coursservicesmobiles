@@ -24,6 +24,6 @@ Pour aujourd'hui
 - Comment créer une API en asp.net core 
 - Comment documenter une API 
 - Comment versionner une API 
-- Api RESTful
+- API RESTful
 @olend
 @snapend

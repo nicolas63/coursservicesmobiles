@@ -4,11 +4,16 @@
 @size[3em](1.)
 @snapend
 
-@snap[east span-70]
-<h2>Lorem ipsum @css[text-blue](dolor)</h2>
+@snap[north-east template-note text-gray]
+Présentation du projet et de la notation
 @snapend
 
-@snap[north-east template-note text-gray]
-Sidebar with heading body template.
+@snap[east span-70]
+
+Un projet commun avec le cours de Monsieur Chevaldonné
+
+[Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/Cours2019/Notation.md)
+
+[Un exemple de projet](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)
 @snapend
 

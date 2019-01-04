@@ -35,7 +35,7 @@ Facade permettant d'exposé des données
 
 @snapend
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=template/img/bg/blue.jpg&position=top&size=100% 10%
 
 @snap[north text-white span-100]
 3. Comment créer une API en asp.net core

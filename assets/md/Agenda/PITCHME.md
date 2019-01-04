@@ -1,4 +1,4 @@
-@snap[west text-16 text-bold text-italic text-orange span-50]
+@snap[west text-16 text-bold text-italic text-blue span-50]
 L'Agenda
 @snapend
 
@@ -13,7 +13,7 @@ L'Agenda
 
 +++
 
-@snap[west text-16 text-bold text-italic text-orange span-50]
+@snap[west text-16 text-bold text-italic text-blue span-50]
 Pour aujourd'hui
 @snapend
 

@@ -19,7 +19,6 @@ Pour aujourd'hui
 
 @snap[east text-white span-45]
 @ol[split-screen-list text-08]
-- Présentation du projet et de la notation 
 - Qu'est-ce qu'une API 
 - Comment créer une API en asp.net core 
 - Comment documenter une API 

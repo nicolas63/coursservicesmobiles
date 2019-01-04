@@ -10,10 +10,10 @@ Attention cette grille de notation est donnée à titre indicatif et le barème 
 
 ## Api (*12 points*)
 
-- Mise en place d'au moins 2 Api (*2 points*)ç
+- Mise en place d'au moins 2 Api (*2 points*)
+- API RESTful (*2 points*)
 - Versionning de l'api (*2 points*)
 - Documentation de l'api (*2 points*)
-- Api RESTful (*2 points*)
 - Sécurisation (*2 points*)
 - Explication de cette partie sur 1 à 2 pages (*2 points*)
 

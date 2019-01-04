@@ -8,9 +8,9 @@ Présentation du projet et de la notation
 @snapend
 
 @snap[east span-70]
-Un projet commun avec<br/>le cours de Windows phone<br/>
+Un projet commun avec<br/>le cours de Windows phone<br/><br/>
 
-[Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/Cours2019/Notation.md) <br/>
+[Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/Cours2019/Notation.md) <br/><br/>
 
 [Un exemple de projet](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)<br/>
 @snapend

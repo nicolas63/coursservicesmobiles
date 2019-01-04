@@ -2,7 +2,7 @@
 L'Agenda
 @snapend
 
-@snap[south-west list-content-concise span-100]
+@snap[south-west list-content-concise span-10]
 @ol
 - Qu'est-ce qu'une API
 - API Management

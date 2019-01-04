@@ -9,7 +9,7 @@ Présentation du projet et de la notation
 
 @snap[east span-70]
 
-Un projet commun avec le cours de Monsieur Chevaldonné <br/>
+Un projet commun avec le cours<br/> de Windows phone <br/>
 
 [Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/Cours2019/Notation.md) <br/>
 

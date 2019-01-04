@@ -22,8 +22,9 @@ Pour aujourd'hui
 - Présentation du projet et de la notation 
 - Qu'est-ce qu'une API 
 - Comment créer une API en asp.net core 
+- API RESTful
 - Comment documenter une API 
 - Comment versionner une API 
-- API RESTful
+
 @olend
 @snapend

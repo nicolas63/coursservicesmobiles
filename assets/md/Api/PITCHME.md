@@ -100,3 +100,19 @@ Comment documenter une API ?
 @snap[east span-70]
 ![Alt Text](assets/img/swagger-ui.png)
 @snapend
+
++++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
+
+@snap[west text-white]
+@size[3em](4.)
+@snapend
+
+@snap[north-east template-note text-gray]
+Comment versionner une API ?
+@snapend
+
+### Utilisation de swagger
+
+@snap[east span-70]
+![Alt Text](assets/img/swagger-ui.png)
+@snapend

@@ -1,4 +1,5 @@
-# Cours Services mobiles 2019
-nicolas raymond 
+## Cours Services mobiles 2019
 
----?include=template/md/split-screen/PITCHME.md
+---?include=assets/md/aboutme/PITCHME.md
+---?include=assets/md/agenda/PITCHME.md
+---?include=assets/md/split-screen/PITCHME.md

@@ -31,7 +31,7 @@ Qu'est-ce qu'une API
 
 @css[text-blue](A)plication @css[text-blue](P)rogramming @css[text-blue](I)nterface
 
-Facade permettant d'exposé des données
+Facade permettant d'exposé des données 
 
 @snapend
 
@@ -41,29 +41,62 @@ Facade permettant d'exposé des données
 3. Comment créer une API en asp.net core
 @snapend
 
-```javascript
-// Include http module.
-var http = require("http");
 
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
+``` 
+dotnet new webapi -o [NomDeVotreProjet]
 ```
 
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Your code is displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
++++ 
+
+@snap[north text-white span-100]
+3. Comment créer une API en asp.net core
+@snapend
+
+### Les controller 
+
+```csharp
+[Route("api/[controller]")]
+[ApiController]
+public class TodoController : ControllerBase
+{
+    private readonly TodoContext _context;
+
+    public TodoController(TodoContext context)
+    {
+        _context = context;
+    }
+
+    // GET: api/Todo/5
+    [HttpGet("{id}")]
+    public async Task<ActionResult<TodoItem>> GetTodoItem(long id)
+    {
+        var todoItem = await _context.TodoItems.FindAsync(id);
+
+        if (todoItem == null)
+        {
+            return NotFound();
+        }
+
+        return todoItem;
+    }
+}
+```
+
+@[1](Donne route de ce controller par défaut http://votredomain:port/api/NomDuController)
+@[12-24](Récupération d'un item par sont id avec la route : /api/todo/1)
+
++++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
+
+@snap[west text-white]
+@size[3em](4.)
+@snapend
+
+@snap[north-east template-note text-gray]
+Comment documenter une API ?
+@snapend
+
+### Utilisation de swagger
+
+@snap[east span-70]
+![Alt Text](assets/img/swagger-ui.png)
+@snapend

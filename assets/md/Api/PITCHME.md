@@ -40,20 +40,38 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : REST 
+3. API RESTful : URI  
 @snapend
+
+@css[text-blue](U)niform @css[text-blue](R)esource @css[text-blue](I)dentifier<br/>
+
+![alt text](https://i.stack.imgur.com/mcTKf.jpg)
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. API RESTful : REST 
+@snapend
+
+@css[text-blue](RE)presentational @css[text-blue](S)tate @css[text-blue](T)ransfer
+
+ 1. l’URI comme identifiant des ressources
+ 2. les verbes HTTP comme identifiant des opérations
+ 3. les réponses HTTP comme représentation des ressources
+ 4. les liens comme relation entre ressources
+ 5. un paramètre comme jeton d’authentification
 
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : Utilidation des verbes HTTP 
+3. API RESTful : Utilisation des verbes HTTP 
 @snapend
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : Utilidation des verbes HTTP 
+3. API RESTful : Utilisation des verbes HTTP 
 @snapend
 
 @css[text-blue](GET) : Récupération d'une resource<br/>
@@ -64,7 +82,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : Utilidation des verbes HTTP 
+3. API RESTful : Utilisation des verbes HTTP 
 @snapend
 
 @css[text-blue](1XX) : Information<br/>
@@ -77,10 +95,8 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful
+3. API RESTful : Utilisation des verbes HTTP  
 @snapend
-
-### Utilisation des verbes HTTP 
 
 @css[text-blue](3XX) : Redirection<br/>
 - 301 : Moved Permanently
@@ -90,10 +106,8 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful
+3. API RESTful : Utilisation des verbes HTTP  
 @snapend
-
-### Utilisation des verbes HTTP 
 
 @css[text-blue](4XX) : Erreur du client <br/>
 - 400 : Bad Request
@@ -107,10 +121,8 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API RESTful
+3. API RESTful : Utilisation des verbes HTTP  
 @snapend
-
-### Utilisation des verbes HTTP 
 
 @css[text-blue](5XX) : Erreur du client <br/>
 - 500 : Internal Server Error

@@ -184,6 +184,58 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
+3. API RESTful : Niveau de maturité par Leonard Richardson 
+@snapend
+
+![Alt test] https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Niveau 0, le RPC sur HTTP en POX
+@snapend
+
+![alt text](assets/img/level0.png)
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : L’utilisation de ressources différenciées
+@snapend
+
+![alt text](assets/img/level1.png)
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : L’utilisation des verbes et des codes retours HTTP
+@snapend
+
+![alt text](assets/img/level2.png)
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : L’utilisation des contrôles hypermédia
+@snapend
+
+![alt text](assets/img/level3.png)
+
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : HATEOAS
+@snapend
+
+@css[text-blue](H)ypertext @css[text-blue](A)s @css[text-blue](T)he @css[text-blue](E)ngine @css[text-blue](O)f @css[text-blue](A)pplication @css[text-blue](S)tate
+
+![Alt test] https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png
+
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
 1. Comment créer une API en asp.net core
 @snapend
 

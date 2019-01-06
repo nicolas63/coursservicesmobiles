@@ -44,7 +44,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 @snapend
 
 
-### Utilidation des verbes HTTP : 
+### Utilidation des verbes HTTP 
 
 @css[text-blue](GET) : Récupération d'un resource<br/>
 @css[text-blue](POST) : Création d'un resource<br/>
@@ -57,18 +57,22 @@ Facade permettant d'exposé des données => ici au travers de web services
 3. API RESTful
 @snapend
 
-### Utilidation des verbes HTTP : 
+### Utilidation des verbes HTTP 
 
 @css[text-blue](1XX) : Récupération d'un resource<br/>
 @css[text-blue](2XX) : Création d'un resource<br/>
+@snap[midpoint]
 - 200 : OK 
 - 201 : CREATED 
 - 202 : NO Content 
+- @snapend
+<br/>
 @css[text-blue](3XX) : Mise à jour d'un resource<br/>
+@snap[midpoint]
 - 301 : Moved Permanently
 - 302 : Found
 - 304 : Not Modified
-
+@snapend
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]

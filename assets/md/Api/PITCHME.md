@@ -50,12 +50,12 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API RESTful : REST 
+3. API RESTful : REST 
 @snapend
 
 @css[text-blue](RE)presentational @css[text-blue](S)tate @css[text-blue](T)ransfer
 
- 1. l’URI comme identifiant des ressources
+ 1. l’URI comme identifiant unique des ressources
  2. les verbes HTTP comme identifiant des opérations
  3. les réponses HTTP comme représentation des ressources
  4. les liens comme relation entre ressources
@@ -65,8 +65,59 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : Utilisation des verbes HTTP 
+3. API RESTful : REST 
 @snapend
+
+@css[text-blue](Uniforme)
+
+L’interface est uniforme à tous les niveaux. Tous les éléments (et connecteurs) communiquent en utilisant la même interface.
+
+Chaque ressource est identifiée de façon unique et canonicalisée avec son URL.
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : REST 
+@snapend
+
+@css[text-blue](Stateless)
+
+Une API REST ne doit pas maintenir de session.
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : REST 
+@snapend
+
+@css[text-blue](Cacheable)
+
+Il doit être possible de mettre les ressources en cache à tous les niveaux (front, connecteur intermédiaire, back, etc…)
+
+Il doit être possible d’utiliser les implémentations standards de cache HTTP.
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : REST 
+@snapend
+
+@css[text-blue](Client / Serveur : "Separation of Concerns")
+
+L’API REST n’est pas concernée par l’affichage, les interactions utilisateur et la session
+
+Tous ces éléments doivent être gérés par le client (Ex. : application web frontend)
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : REST 
+@snapend
+
+@css[text-blue](Layered)
+
+La présence de “connecteurs” intermédiaires doit être implicite pour le client et le serveur (composant de cache / sécurité etc…)
+
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

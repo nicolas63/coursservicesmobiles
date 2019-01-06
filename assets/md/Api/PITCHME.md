@@ -57,7 +57,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 3. API RESTful
 @snapend
 
-### Utilidation des verbes HTTP 
+### Utilisation des verbes HTTP 
 
 @css[text-blue](1XX) : Information<br/>
 @css[text-blue](2XX) : Succès<br/>
@@ -69,15 +69,49 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API RESTful
+3. API RESTful
 @snapend
 
-### Utilidation des verbes HTTP 
+### Utilisation des verbes HTTP 
 
 @css[text-blue](3XX) : Redirection<br/>
 - 301 : Moved Permanently
 - 302 : Found
 - 304 : Not Modified
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful
+@snapend
+
+### Utilisation des verbes HTTP 
+
+@css[text-blue](4XX) : Erreur du client <br/>
+- 400 : Bad Request
+- 401 : Unauthorized
+- 403 : Forbidden
+- 404 : Not Found
+- 405 : Method Not Allowed
+- 406 : Not Acceptable
+- 409 : Conflict
+- 415 : Unsupported Media Type
+- 451 : Unavailable For Legal Reasons
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful
+@snapend
+
+### Utilisation des verbes HTTP 
+
+@css[text-blue](5XX) : Erreur du client <br/>
+- 500 : Internal Server Error
+- 501 : Not Implemented
+- 502 : Bad Gateway
+
+[Et Bien Plus ...](https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP)
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

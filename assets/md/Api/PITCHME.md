@@ -184,53 +184,58 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : Niveau de maturité par Leonard Richardson 
+3. API RESTful : Niveau de maturité REST
 @snapend
 
+Richardson Maturity Model 
 ![Alt test] https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : Niveau 0, le RPC sur HTTP en POX
+3. API RESTful : Niveau de maturité REST
 @snapend
 
+@css[text-blue](Niveau 0, le RPC sur HTTP en POX) (SOAP, XML-RPC) <br/>
 ![alt text](assets/img/level0.png)
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : L’utilisation de ressources différenciées
+1. API RESTful : Niveau de maturité REST
 @snapend
 
+@css[text-blue](Niveau 0, L’utilisation de ressources différenciées)<br/>
 ![alt text](assets/img/level1.png)
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : L’utilisation des verbes et des codes retours HTTP
+3. API RESTful : Niveau de maturité REST
 @snapend
 
+@css[text-blue](Niveau 2, L’utilisation des verbes et des codes retours HTTP)<br/>
 ![alt text](assets/img/level2.png)
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : L’utilisation des contrôles hypermédia
+1. API RESTful : Niveau de maturité REST
 @snapend
 
+@css[text-blue](Niveau 3, L’utilisation des contrôles hypermédia) <br/>
 ![alt text](assets/img/level3.png)
 
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : HATEOAS
+1. API RESTful : HATEOAS
 @snapend
 
 @css[text-blue](H)ypertext @css[text-blue](A)s @css[text-blue](T)he @css[text-blue](E)ngine @css[text-blue](O)f @css[text-blue](A)pplication @css[text-blue](S)tate
 
-![Alt test] https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png
+![alt text](https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png)
 
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%

@@ -40,11 +40,21 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful
+3. API RESTful : REST 
 @snapend
 
 
-### Utilidation des verbes HTTP 
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Utilidation des verbes HTTP 
+@snapend
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Utilidation des verbes HTTP 
+@snapend
 
 @css[text-blue](GET) : Récupération d'une resource<br/>
 @css[text-blue](POST) : Création d'une resource<br/>
@@ -54,10 +64,8 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful
+3. API RESTful : Utilidation des verbes HTTP 
 @snapend
-
-### Utilisation des verbes HTTP 
 
 @css[text-blue](1XX) : Information<br/>
 @css[text-blue](2XX) : Succès<br/>
@@ -94,14 +102,12 @@ Facade permettant d'exposé des données => ici au travers de web services
 - 404 : Not Found
 - 405 : Method Not Allowed
 - 406 : Not Acceptable
-- 409 : Conflict
 - 415 : Unsupported Media Type
-- 451 : Unavailable For Legal Reasons
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful
+1. API RESTful
 @snapend
 
 ### Utilisation des verbes HTTP 
@@ -111,7 +117,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 - 501 : Not Implemented
 - 502 : Bad Gateway
 
-[Et Bien Plus ...](https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP)
+[Et bien plus ...](https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP)
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

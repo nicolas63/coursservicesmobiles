@@ -23,7 +23,7 @@ Un projet commun avec<br/>le cours de Windows phone<br/><br/>
 
 
 @snap[north-east template-note text-gray]
-Qu'est-ce qu'une API 
+Qu'est-ce qu'une API ?
 @snapend
 
 
@@ -31,14 +31,41 @@ Qu'est-ce qu'une API
 
 @css[text-blue](A)plication @css[text-blue](P)rogramming @css[text-blue](I)nterface
 
-Facade permettant d'exposé des données 
+Note:
+
+Facade permettant d'exposé des données => ici au travers de web services 
 
 @snapend
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 10%
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. Comment créer une API en asp.net core
+3. API RESTful
+@snapend
+
+
+### Utilidation des verbes HTTP : 
+
+@css[text-blue](GET) : Récupération d'un resource
+@css[text-blue](POST) : Création d'un resource
+@css[text-blue](PUT) : Mise à jour d'un resource
+@css[text-blue](DELETE) : Supression d'un resource
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful
+@snapend
+
+
+@snap[east span-50]
+Utilisation des codes de retour HTTP
+@snapend
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. Comment créer une API en asp.net core
 @snapend
 
 
@@ -49,7 +76,7 @@ dotnet new webapi -o [NomDeVotreProjet]
 +++ 
 
 @snap[north text-white span-100]
-3. Comment créer une API en asp.net core
+4. Comment créer une API en asp.net core
 @snapend
 
 ### Les controller 

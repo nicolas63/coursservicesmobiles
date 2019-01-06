@@ -21,10 +21,10 @@ Pour aujourd'hui
 @ol[split-screen-list text-08]
 - Présentation du projet et de la notation 
 - Qu'est-ce qu'une API 
-- Comment créer une API en asp.net core 
 - API RESTful
-- Comment documenter une API 
-- Comment versionner une API 
+- Comment créer une API en asp.net core ?
+- Comment documenter une API ?
+- Comment versionner une API ?
 
 @olend
 @snapend

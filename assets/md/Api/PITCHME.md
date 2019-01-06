@@ -46,10 +46,10 @@ Facade permettant d'exposé des données => ici au travers de web services
 
 ### Utilidation des verbes HTTP 
 
-@css[text-blue](GET) : Récupération d'un resource<br/>
-@css[text-blue](POST) : Création d'un resource<br/>
-@css[text-blue](PUT) : Mise à jour d'un resource<br/>
-@css[text-blue](DELETE) : Supression d'un resource<br/>
+@css[text-blue](GET) : Récupération d'une resource<br/>
+@css[text-blue](POST) : Création d'une resource<br/>
+@css[text-blue](PUT) : Mise à jour d'une resource<br/>
+@css[text-blue](DELETE) : Supression d'une resource<br/>
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -59,13 +59,22 @@ Facade permettant d'exposé des données => ici au travers de web services
 
 ### Utilidation des verbes HTTP 
 
-@css[text-blue](1XX) : Récupération d'un resource<br/>
-@css[text-blue](2XX) : Création d'un resource<br/>
+@css[text-blue](1XX) : Information<br/>
+@css[text-blue](2XX) : Succès<br/>
 - 200 : OK 
 - 201 : CREATED 
 - 202 : NO Content 
 <br/>
-@css[text-blue](3XX) : Mise à jour d'un resource<br/>
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. API RESTful
+@snapend
+
+### Utilidation des verbes HTTP 
+
+@css[text-blue](3XX) : Redirection<br/>
 - 301 : Moved Permanently
 - 302 : Found
 - 304 : Not Modified

@@ -55,12 +55,11 @@ Facade permettant d'exposé des données => ici au travers de web services
 
 @css[text-blue](RE)presentational @css[text-blue](S)tate @css[text-blue](T)ransfer
 
- 1. l’URI comme identifiant unique des ressources
- 2. les verbes HTTP comme identifiant des opérations
- 3. les réponses HTTP comme représentation des ressources
- 4. les liens comme relation entre ressources
- 5. un paramètre comme jeton d’authentification
-
+ 1. Uniforme
+ 2. Stateless
+ 3. Cacheable
+ 4. Client / Serveur : "Separation of Concerns"
+ 5. Layered
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

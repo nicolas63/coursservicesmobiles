@@ -187,8 +187,8 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 3. API RESTful : Niveau de maturité REST
 @snapend
 
-Richardson Maturity Model 
-![Alt test] https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png
+Richardson Maturity Model <br/>
+![alt text](https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png)
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -220,7 +220,7 @@ Richardson Maturity Model
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API RESTful : Niveau de maturité REST
+3. API RESTful : Niveau de maturité REST
 @snapend
 
 @css[text-blue](Niveau 3, L’utilisation des contrôles hypermédia) <br/>

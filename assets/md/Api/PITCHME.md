@@ -205,7 +205,7 @@ Richardson Maturity Model <br/>
 3. API RESTful : Niveau de maturité REST
 @snapend
 
-@css[text-blue](Niveau 0, L’utilisation de ressources différenciées)<br/>
+@css[text-blue](Niveau 1, L’utilisation de ressources différenciées)<br/>
 ![alt text](assets/img/level1.png)
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
@@ -235,13 +235,19 @@ Richardson Maturity Model <br/>
 
 @css[text-blue](H)ypertext @css[text-blue](A)s @css[text-blue](T)he @css[text-blue](E)ngine @css[text-blue](O)f @css[text-blue](A)pplication @css[text-blue](S)tate
 
-![alt text](https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png)
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : HATEOAS
+@snapend
+
+![alt text](assets/img/hateosample.png)
 
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. Comment créer une API en asp.net core
+4. Comment créer une API en asp.net core
 @snapend
 
 
@@ -249,7 +255,7 @@ Richardson Maturity Model <br/>
 dotnet new webapi -o [NomDeVotreProjet]
 ```
 
-+++ 
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 4. Comment créer une API en asp.net core

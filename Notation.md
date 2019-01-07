@@ -29,7 +29,7 @@ Attention cette grille de notation est donnée à titre indicatif et le barème 
 - Utilisation OpenId Connect et OAuth (*2 points*)
 - Explication de cette partie sur 1 à 2 pages (*2 points*)
 
-## Bonus 
+## Pour aller plus loin 
 
 - Dockerisation du projet ou d'une partie du projet 
 - API Management plus poussée 

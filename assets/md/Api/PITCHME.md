@@ -262,7 +262,7 @@ dotnet new webapi -o [NomDeVotreProjet]
 4. Comment créer une API en asp.net core
 @snapend
 
-### Les controller 
+Les controller 
 
 ```csharp
 [Route("api/[controller]")]
@@ -302,7 +302,7 @@ public class TodoController : ControllerBase
 4. Comment documenter une API ?
 @snapend
 
-### Utilisation de swagger
+Utilisation de swagger
 
 ![Alt Text](assets/img/swagger-ui.png)
 
@@ -350,8 +350,8 @@ namespace Product.CommandService.Controllers.Product.V2
 5. Comment versionner une API ?
 @snapend
 
-Directement dans l'url : /api/v1/maressource : <br/>
-services.AddApiVersioning(o => o.ApiVersionReader =  new UrlSegmentApiVersionReader(); );
+Directement dans l'url : @css[text-blue](/api/v1/maressource) : <br/>
+services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

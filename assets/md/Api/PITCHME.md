@@ -316,6 +316,12 @@ public class TodoController : ControllerBase
 Un paramètre dans le header : <br/>
 services.AddApiVersioning(o => o.ApiVersionReader = new HeaderApiVersionReader("api-version"));
 
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+5. Comment versionner une API ?
+@snapend
+
 ```csharp
 namespace Product.CommandService.Controllers.Product.V1
 {
@@ -346,6 +352,12 @@ namespace Product.CommandService.Controllers.Product.V2
 
 Directement dans l'url : /api/v1/maressource : <br/>
 services.AddApiVersioning(o => o.ApiVersionReader =  new UrlSegmentApiVersionReader(); );
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+5. Comment versionner une API ?
+@snapend
 
 ```csharp
 [ApiVersion( "1.0" )]

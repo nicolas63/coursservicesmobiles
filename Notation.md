@@ -8,19 +8,20 @@ Attention cette grille de notation est donnée à titre indicatif et le barème 
 - La documentation (de préférence dans un répertoire docs à la racine de votre projet)
 - un readme qui explique comment lancer le projet, n'oubliez pas d'expliquer les manipulations spécifiques et les données à créer
 
-## API (*12 points*)
+## API (*11 points*)
 
 - Mise en place d'au moins 2 Api (*2 points*)
 - API RESTful (*2 points*)
-- Versionning de l'api (*2 points*)
-- Documentation de l'api (*2 points*)
+- Versionning de l'api (*1 points*)
+- Documentation de l'api (*1 points*)
 - Sécurisation (*2 points*)
 - Explication de cette partie sur 1 à 2 pages (*2 points*)
+- Tests unitaires (*1 points*)
 
-## API Gateway (*3 points*)
+## API Gateway (*4 points*)
 
 - Mise en place (*2 points*)
-- Explication de cette partie sur 1 à 2 pages (*1 point*)
+- Explication de cette partie sur 1 à 2 pages (*2 point*)
 
 ## Sécurité (*5 points*)
 
@@ -28,9 +29,8 @@ Attention cette grille de notation est donnée à titre indicatif et le barème 
 - Utilisation OpenId Connect et OAuth (*2 points*)
 - Explication de cette partie sur 1 à 2 pages (*2 points*)
 
-## Bonus (*8 points*)
+## Bonus 
 
-- Dockerisation du projet ou d'une partie du projet (*2 points*)
-- API Management plus poussée (*2 points*)
-- Identity Server avec un ou plusieurs providers externes (*2 points*)
-- Tests unitaires (*2 points*)
+- Dockerisation du projet ou d'une partie du projet 
+- API Management plus poussée 
+- Identity Server avec un ou plusieurs providers externes 

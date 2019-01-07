@@ -233,7 +233,8 @@ Richardson Maturity Model <br/>
 3. API RESTful : HATEOAS
 @snapend
 
-@css[text-blue](H)ypertext @css[text-blue](A)s @css[text-blue](T)he @css[text-blue](E)ngine @css[text-blue](O)f @css[text-blue](A)pplication @css[text-blue](S)tate
+@css[text-blue](H)ypertext @css[text-blue](A)s @css[text-blue](T)he @css[text-blue](E)ngine @css[text-blue](O)f <br/>
+@css[text-blue](A)pplication @css[text-blue](S)tate
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

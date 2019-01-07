@@ -242,7 +242,7 @@ Richardson Maturity Model <br/>
 3. API RESTful : HATEOAS
 @snapend
 
-![alt text](assets/img/hateosample.png)
+![alt text](assets/img/hateoassample.png)
 
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%

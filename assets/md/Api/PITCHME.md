@@ -263,11 +263,39 @@ text/plain, application/xml, text/html, application/json, image/gif, image/jpeg 
 Content-Type: application/json <br/> permet de définir le contenu envoyé dans la requête <br/>
 Accept: application/json <br/> permet de définir le contenu souhaité du client 
 
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Example de requête HTTP
+@snapend
+
+```
+GET http://localhost/api/ressource HTTP/1.0
+Accept : text/html
+Content-Length: 11
+User-Agent : Mozilla/4.0 (compatible; MSIE 5.0; Windows 95)
+
+Contenu
+```
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. Comment créer une API en asp.net core
+3. API RESTful : Example de réponse HTTP
+@snapend
+
+```
+HTTP/1.1 200 OK
+Content-Type : text/HTML
+Content-Length : 1245
+
+Contenu
+```
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+4. Comment créer une API en asp.net core
 @snapend
 
 

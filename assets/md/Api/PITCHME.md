@@ -202,7 +202,7 @@ Richardson Maturity Model <br/>
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API RESTful : Niveau de maturité REST
+3. API RESTful : Niveau de maturité REST
 @snapend
 
 @css[text-blue](Niveau 0, L’utilisation de ressources différenciées)<br/>
@@ -230,7 +230,7 @@ Richardson Maturity Model <br/>
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API RESTful : HATEOAS
+3. API RESTful : HATEOAS
 @snapend
 
 @css[text-blue](H)ypertext @css[text-blue](A)s @css[text-blue](T)he @css[text-blue](E)ngine @css[text-blue](O)f @css[text-blue](A)pplication @css[text-blue](S)tate
@@ -288,34 +288,72 @@ public class TodoController : ControllerBase
 @[1](Donne route de ce controller par défaut http://votredomain:port/api/NomDuController)
 @[12-24](Récupération d'un item par sont id avec la route : /api/todo/1)
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
 
-@snap[west text-white]
-@size[3em](4.)
-@snapend
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
-@snap[north-east template-note text-gray]
-Comment documenter une API ?
+@snap[north text-white span-100]
+4. Comment documenter une API ?
 @snapend
 
 ### Utilisation de swagger
 
-@snap[east span-70]
 ![Alt Text](assets/img/swagger-ui.png)
+
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+5. Comment versionner une API ?
 @snapend
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
+Un paramètre dans le header : <br/>
+services.AddApiVersioning(o => o.ApiVersionReader = new HeaderApiVersionReader("api-version"));
 
-@snap[west text-white]
-@size[3em](4.)
+```csharp
+namespace Product.CommandService.Controllers.Product.V1
+{
+  [ApiVersion("1.0")]
+  [Produces("application/json")]
+  [Route("api/Product")]
+  public class ProductController : Controller
+  {
+  }
+}
+
+namespace Product.CommandService.Controllers.Product.V2
+{
+  [ApiVersion("2.0")]
+  [Produces("application/json")]
+  [Route("api/Product")]
+  public class ProductController : Controller
+  {
+  }
+}
+```
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+5. Comment versionner une API ?
 @snapend
 
-@snap[north-east template-note text-gray]
-Comment versionner une API ?
-@snapend
+Directement dans l'url : /api/v1/maressource : <br/>
+services.AddApiVersioning(o => o.ApiVersionReader =  new UrlSegmentApiVersionReader(); );
 
-### Utilisation de swagger
-
-@snap[east span-70]
-![Alt Text](assets/img/swagger-ui.png)
-@snapend
+```csharp
+[ApiVersion( "1.0" )]
+[Route( "api/v{version:apiVersion}/[controller]" )]
+public class HelloWorldController : Controller {
+    public string Get() => "Hello world!";
+}
+ 
+[ApiVersion( "2.0" )]
+[ApiVersion( "3.0" )]
+[Route( "api/v{version:apiVersion}/helloworld" )]
+public class HelloWorld2Controller : Controller {
+    [HttpGet]
+    public string Get() => "Hello world v2!";
+ 
+    [HttpGet, MapToApiVersion( "3.0" )]
+    public string GetV3() => "Hello world v3!";
+}```

@@ -258,10 +258,10 @@ text/plain, application/xml, text/html, application/json, image/gif, image/jpeg 
 3. API RESTful : Négociation de contenu
 @snapend
 
-2 headers : <br/>
+2 HEADERS : <br/>
 
-Content-Type: application/json <br/> permet de définir le contenu envoyé dans la requête 
-Accept: application/json => permet de définir le contenu souhaité du client 
+Content-Type: application/json <br/> permet de définir le contenu envoyé dans la requête <br/>
+Accept: application/json <br/> permet de définir le contenu souhaité du client 
 
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%

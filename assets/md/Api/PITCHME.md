@@ -53,7 +53,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 3. API RESTful : Le protocole HTTP  
 @snapend
 
-HTTP/0.9  : une ligne <br/>
+HTTP/0.9 (1990) : une ligne <br/>
 ```
 GET /monfichier.html
 ```
@@ -64,7 +64,7 @@ GET /monfichier.html
 3. API RESTful : Le protocole HTTP  
 @snapend
 
-HTTP/1.0  : Appariation des headers HTTP <br/>
+HTTP/1.0 (1991-1995) : Appariation des headers HTTP <br/>
 ```
 200 OK
 Date: Tue, 15 Nov 1994 08:12:31 GMT
@@ -82,7 +82,7 @@ Une page avec une image
 3. API RESTful : Le protocole HTTP  
 @snapend
 
-HTTP/1.1  : HTTP standardisé <br/>
+HTTP/1.1 (1997,1999,2014) : HTTP standardisé <br/>
 
 Exemple de requête : <br/>
 ```
@@ -97,7 +97,7 @@ Contenu
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API RESTful : Le protocole HTTP  
+3. API RESTful : Le protocole HTTP  
 @snapend
 
 Exemple de réponse : <br/>
@@ -108,6 +108,19 @@ Content-Length : 1245
 
 Contenu
 ```
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Le protocole HTTP  
+@snapend
+
+HTTP/2 (mai 2015) : Amélioration des performances <br/>
+- Encodage binaire plutôt qu'en texte
+- Multiplexé et donc plusieurs requêtes en paralléle
+- Compression des en-têtes 
+
+En janvier 2018, 23.9% des sites web utilisent HTTP/2
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

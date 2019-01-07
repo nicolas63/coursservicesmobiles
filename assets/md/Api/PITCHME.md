@@ -50,6 +50,68 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
+3. API RESTful : Le protocole HTTP  
+@snapend
+
+HTTP/0.9  : une ligne <br/>
+```
+GET /monfichier.html
+```
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Le protocole HTTP  
+@snapend
+
+HTTP/1.0  : Appariation des headers HTTP <br/>
+```
+200 OK
+Date: Tue, 15 Nov 1994 08:12:31 GMT
+Server: CERN/3.0 libwww/2.17
+Content-Type: text/html
+<HTML> 
+Une page avec une image
+  <IMG SRC="/monimage.gif">
+</HTML>
+```
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Le protocole HTTP  
+@snapend
+
+HTTP/1.1  : HTTP standardisé <br/>
+
+Exemple de requête : <br/>
+```
+GET http://localhost/api/ressource HTTP/1.1
+Accept : text/html
+Content-Length: 11
+User-Agent : Mozilla/4.0 (compatible; MSIE 5.0; Windows 95)
+
+Contenu
+```
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. API RESTful : Le protocole HTTP  
+@snapend
+
+Exemple de réponse : <br/>
+```
+HTTP/1.1 200 OK
+Content-Type : text/HTML
+Content-Length : 1245
+
+Contenu
+```
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
 3. API RESTful : REST 
 @snapend
 
@@ -263,34 +325,6 @@ text/plain, application/xml, text/html, application/json, image/gif, image/jpeg 
 Content-Type: application/json <br/> permet de définir le contenu envoyé dans la requête <br/>
 Accept: application/json <br/> permet de définir le contenu souhaité du client 
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
-
-@snap[north text-white span-100]
-3. API RESTful : Example de requête HTTP
-@snapend
-
-```
-GET http://localhost/api/ressource HTTP/1.0
-Accept : text/html
-Content-Length: 11
-User-Agent : Mozilla/4.0 (compatible; MSIE 5.0; Windows 95)
-
-Contenu
-```
-
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
-
-@snap[north text-white span-100]
-3. API RESTful : Example de réponse HTTP
-@snapend
-
-```
-HTTP/1.1 200 OK
-Content-Type : text/HTML
-Content-Length : 1245
-
-Contenu
-```
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 

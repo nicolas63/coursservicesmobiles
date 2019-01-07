@@ -124,10 +124,10 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 3. API RESTful : Utilisation des verbes HTTP 
 @snapend
 
-@css[text-blue](GET) : Récupération d'une resource<br/>
-@css[text-blue](POST) : Création d'une resource<br/>
-@css[text-blue](PUT) : Mise à jour d'une resource<br/>
-@css[text-blue](DELETE) : Supression d'une resource<br/>
+@css[text-blue](GET) : Récupération d'une ressource<br/>
+@css[text-blue](POST) : Création d'une ressource<br/>
+@css[text-blue](PUT) : Mise à jour d'une ressource<br/>
+@css[text-blue](DELETE) : Supression d'une ressource<br/>
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -174,7 +174,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 3. API RESTful : Utilisation des verbes HTTP  
 @snapend
 
-@css[text-blue](5XX) : Erreur du client <br/>
+@css[text-blue](5XX) : Erreur du serveur <br/>
 - 500 : Internal Server Error
 - 501 : Not Implemented
 - 502 : Bad Gateway
@@ -244,11 +244,30 @@ Richardson Maturity Model <br/>
 
 ![alt text](assets/img/hateoassample.png)
 
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API RESTful : Type de contenu
+@snapend
+
+text/plain, application/xml, text/html, application/json, image/gif, image/jpeg , etc 
 
 +++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-4. Comment créer une API en asp.net core
+3. API RESTful : Négociation de contenu
+@snapend
+
+2 headers : <br/>
+
+Content-Type: application/json <br/> permet de définir le contenu envoyé dans la requête 
+Accept: application/json => permet de définir le contenu souhaité du client 
+
+
++++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. Comment créer une API en asp.net core
 @snapend
 
 
@@ -292,7 +311,7 @@ public class TodoController : ControllerBase
 }
 ```
 
-@[1](Donne route de ce controller par défaut http://votredomain:port/api/NomDuController)
+@[1](Donne la route de ce controller, par défaut http://votredomain:port/api/NomDuController)
 @[12-24](Récupération d'un item par sont id avec la route : /api/todo/1)
 
 

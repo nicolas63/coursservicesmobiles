@@ -17,7 +17,9 @@ Mise en place de l'intégration continue sur gitlab
 2. API Management 
 @snapend
 
-+++?image=assets/img/apim.png
+Découpage en microservices
+
++++?image=assets/img/apilifecycle.png
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -25,12 +27,16 @@ Mise en place de l'intégration continue sur gitlab
 2. API Management : Documentation et versionning
 @snapend
 
++++?image=assets/img/api-consumers.png
+
++++?image=assets/img/api-gw.png
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 2. API Management : Administration
 @snapend
+
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -69,3 +75,13 @@ Mise en place de l'intégration continue sur gitlab
 @snapend
 
 Blue green deployment
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. API Management 
+@snapend
+
+En résumé c'est quoi ? 
+
++++?image=assets/img/apim.png

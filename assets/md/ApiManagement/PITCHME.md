@@ -1,5 +1,6 @@
 +++?include=assets/md/Agenda/PITCHME.md
 
++++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
 @snap[west text-white]
 @size[3em](1.)
 @snapend

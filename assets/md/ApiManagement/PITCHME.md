@@ -17,12 +17,14 @@ Mise en place de l'intégration continue sur gitlab
 2. API Management 
 @snapend
 
++++?image=assets/img/apim.png
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management : Document et versionning
+2. API Management : Documentation et versionning
 @snapend
+
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

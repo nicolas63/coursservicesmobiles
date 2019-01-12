@@ -28,24 +28,19 @@ Mise en place de l'intégration continue sur gitlab
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
-+++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
-
 @snap[north text-white span-100]
 2. API Management 
 @snapend
 
 Découpage en microservices
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
 @snap[north text-white span-100]
 2. API Management : Documentation et versionning
 @snapend
 
 Demo swagger 
-
-+++?image=assets/img/api-consumers.png
-
-+++?image=assets/img/api-gw.png
-
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -92,7 +87,7 @@ Pour les développeurs les informations dont il a besoin (statistics )
 2. API Management : Load Balancer
 @snapend
 
-Blue green deployment
+Blue green deployment 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -111,9 +106,17 @@ Demo docker
 example Consul
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+@snap[north text-white span-100]
+3. API Gateway 
+@snapend
+
+
++++?image=assets/img/api-consumers.png
+
++++?image=assets/img/api-gw.png
 
 @snap[north text-white span-100]
-2. API Management 
+3. API Gateway + API management 
 @snapend
 
 En résumé c'est quoi ? 
@@ -124,13 +127,13 @@ En résumé c'est quoi ?
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management : Ocelot 
+3. API Gateway : Ocelot 
 @snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management 
+3. API Gateway
 @snapend
 
 Kong, Gravitee,etc

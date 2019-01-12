@@ -37,7 +37,7 @@ Découpage en microservices : Multiplication des API
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management : Documentation et versionning
+2. API Management :<br/> Documentation et versionning
 @snapend
 
 Demo swagger 
@@ -81,9 +81,9 @@ Rejoue les requêtes en echecs
 2. API Management : Logging et Monitoring
 @snapend
 
-Gestion des logs application et d'infrastructure<br/>
-Alertes<br/>
-Monitoring
+- Gestion des logs application et d'infrastructure
+- Alertes
+- Monitoring
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -91,12 +91,14 @@ Monitoring
 2. API Management : Load Balancer
 @snapend
 
+@snap[sud]
 ![alt Text](assets/img/load-balancer.png)
+@snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management : Load Balancer
+1. API Management : Load Balancer
 @snapend
 
 Blue green deployment 

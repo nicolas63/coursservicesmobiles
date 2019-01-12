@@ -91,7 +91,7 @@ Rejoue les requêtes en echecs
 2. API Management : Load Balancer
 @snapend
 
-@snap[MidPoint span-55]
+@snap[Sud span-50]
 ![alt Text](assets/img/load-balancer.png)
 @snapend
 

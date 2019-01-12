@@ -32,7 +32,7 @@ Mise en place de l'intégration continue sur gitlab
 2. API Management 
 @snapend
 
-Découpage en microservices
+Découpage en microservices : Multiplication des API 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -49,7 +49,7 @@ Demo swagger
 @snapend
 
 Portail de management de l'api<br/>
-Pour les développeurs les informations dont il a besoin (statistics )
+Pour les développeurs les informations dont ils ont besoins (statistiques)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -57,11 +57,15 @@ Pour les développeurs les informations dont il a besoin (statistics )
 2. API Management : Rate Limiting
 @snapend
 
+Limite du traffic pour ne pas surcharger l'infrastructure
+
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 2. API Management : Caching
 @snapend
+
+Permet des temps de réponse plus court<br/>
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -69,17 +73,25 @@ Pour les développeurs les informations dont il a besoin (statistics )
 2. API Management : Quality of service
 @snapend
 
+Rejoue les requêtes en echecs 
+
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management : Logging
+2. API Management : Logging et Monitoring
 @snapend
+
+Gestion des logs application et d'infrastructure<br/>
+Alertes<br/>
+Monitoring
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 2. API Management : Load Balancer
 @snapend
+
+![alt Text](assets/img/load-balancer.png)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -95,7 +107,7 @@ Blue green deployment
 2. API Management : Load Balancer
 @snapend
 
-Demo docker
+Demo docker 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -103,26 +115,16 @@ Demo docker
 2. API Management : Service discovery
 @snapend
 
-example Consul
+Exemple Consul
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
 3. API Gateway 
 @snapend
 
-
 +++?image=assets/img/api-consumers.png
 
 +++?image=assets/img/api-gw.png
-
-@snap[north text-white span-100]
-3. API Gateway + API management 
-@snapend
-
-En résumé c'est quoi ? 
-
-+++?image=assets/img/apim.png
-
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -137,3 +139,13 @@ En résumé c'est quoi ?
 @snapend
 
 Kong, Gravitee,etc
+
+
+@snap[north text-white span-100]
+3. API Gateway + API management 
+@snapend
+
+En résumé c'est quoi ? 
+
++++?image=assets/img/apim.png
+

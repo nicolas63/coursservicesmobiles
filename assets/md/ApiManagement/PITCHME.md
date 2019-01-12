@@ -32,12 +32,12 @@ Mise en place de l'intégration continue sur gitlab
 2. API Management 
 @snapend
 
-Découpage en microservices : Multiplication des API 
+Découpage en microservices :<br/>Multiplication des API 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management :<br/> Documentation et versionning
+2. API Management : Documentation et versionning
 @snapend
 
 Demo swagger 
@@ -85,10 +85,31 @@ Rejoue les requêtes en echecs
 - Alertes
 - Monitoring
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%.
+@snap[north text-white span-100]
+2. API Management : Logging et Monitoring
+@snapend
+
+Plusieurs stack technique : 
+- ELK (@css[text-blue](E)lasticksearch @css[text-blue](L)ogstash @css[text-blue](K)ibana)
+- TICK (@css[text-blue](T)elegraph @css[text-blue](I)nfluxDB @css[text-blue](C)ronograph @css[text-blue](K)apacitor)
+- TIGK (@css[text-blue](T)elegraph @css[text-blue](I)nfluxDB @css[text-blue](G)rafana @css[text-blue](K)apacitor)
+
+[Exemple de dashboard grafana](https://play.grafana.org)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%.
+@snap[north text-white span-100]
+2. API Management : Logging et Monitoring
+@snapend
+
+![alt Text](assets/img/TICK.png)
+
+[Exemple de dashboard grafana](https://play.grafana.org)
+
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management : Load Balancer
+1. API Management : Load Balancer
 @snapend
 
 @snap[span-65]
@@ -98,7 +119,7 @@ Rejoue les requêtes en echecs
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API Management : Load Balancer
+2. API Management : Load Balancer
 @snapend
 
 Blue green deployment 
@@ -142,6 +163,7 @@ Exemple Consul
 
 Kong, Gravitee,etc
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API Gateway + API management 

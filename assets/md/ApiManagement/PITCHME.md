@@ -85,7 +85,7 @@ Rejoue les requêtes en echecs
 - Alertes
 - Monitoring
 
-+++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%.
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
 2. API Management : Logging et Monitoring
 @snapend
@@ -97,14 +97,13 @@ Plusieurs stack technique :
 
 [Exemple de dashboard grafana](https://play.grafana.org)
 
-+++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%.
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
 @snap[north text-white span-100]
 2. API Management : Logging et Monitoring
 @snapend
 
 ![alt Text](assets/img/TICK.png)
-
-[Exemple de dashboard grafana](https://play.grafana.org)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

@@ -8,9 +8,9 @@ Point sur le projet d'exemple
 @snapend
 
 @snap[east span-70]
-Mise en place de l'intégration continue sur gitlab 
+Mise en place de l'intégration continue sur gitlab <br/>
+![alt text](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)
 @snapend
-
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -21,7 +21,7 @@ Mise en place de l'intégration continue sur gitlab
 - Protection des attaques
 - Fiabilité 
 - Monétisation
-- Gestion des différents environement (developpement, intégration, production)
+- Gestion des différents environnements (developpement, intégration, production)
 - Gestion des différents clients (web, mobile, IOT, etc)
 
 +++?image=assets/img/apilifecycle.png
@@ -82,7 +82,7 @@ Rejoue les requêtes en echecs
 @snapend
 
 - Gestion des logs application et d'infrastructure
-- Alertes
+- Alertes (logs, healthcheck,etc)
 - Monitoring
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
@@ -108,7 +108,7 @@ Plusieurs stack technique :
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. API Management : Load Balancer
+2. API Management : Load Balancer
 @snapend
 
 @snap[span-65]

@@ -225,6 +225,6 @@ Microservices : Asp.net core
 Conférence informatique :
 @snapend
 
-[Lavajug](https://www.lavajug.org/) : 23 janvier
-[MugInClermont](https://www.meetup.com/fr-FR/MugInClermont/)
+23 janvier : [Lavajug](https://www.lavajug.org/) <br/>
+[MugInClermont](https://www.meetup.com/fr-FR/MugInClermont/) <br/>
 [ClermontT'ech](https://www.clermontech.org/)

@@ -227,4 +227,4 @@ Conférence informatique :
 
 23 janvier : [Lavajug](https://www.lavajug.org/) <br/>
 [MugInClermont](https://www.meetup.com/fr-FR/MugInClermont/) <br/>
-[ClermontT'ech](https://www.clermontech.org/)
+[Clermont'ech](https://www.clermontech.org/)

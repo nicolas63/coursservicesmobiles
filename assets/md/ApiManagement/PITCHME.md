@@ -9,18 +9,18 @@ Point sur le projet d'exemple
 
 @snap[east span-70]
 Mise en place de l'intégration continue sur gitlab <br/>
-![alt text](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)
-Pour aller plus loin déploiement 
+https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel
 @snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. Point sur le projet d'exemple  : Pour aller plus loin 
+1. Point sur le projet d'exemple  : 
 @snapend
 
+Pour aller plus loin : <br/>
 Déploiment continu <br/>
-![alt text](https://gitlab.iut-clermont.uca.fr/niraymon/siteclubinfo)
+https://gitlab.iut-clermont.uca.fr/niraymon/siteclubinfo
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -39,7 +39,7 @@ Déploiment continu <br/>
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. API Management 
+2. API Management : Importance
 @snapend
 
 Découpage en microservices :<br/>Multiplication des API 
@@ -134,9 +134,9 @@ Plusieurs stack technique :
 2. API Management : Load Balancer
 @snapend
 
-Blue green deployment 
-HealthCheck 
-![alt text](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/implement-resilient-applications/monitor-app-health)
+Blue green deployment <br/>
+HealthCheck <br/>
+[Exemple en asp.net core](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/implement-resilient-applications/monitor-app-health)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

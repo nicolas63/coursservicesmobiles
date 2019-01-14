@@ -172,6 +172,9 @@ Qu'est-ce que c'est ?
 3. API Gateway : Ocelot 
 @snapend
 
+https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel <br/>
+https://ocelot.readthedocs.io/en/latest/introduction/gettingstarted.html
+
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
@@ -206,3 +209,11 @@ En résumé c'est quoi ?
 
 +++?image=assets/img/apim.png
 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+Microservices : Asp.net core
+@snapend
+
+https://aka.ms/microservicesebook

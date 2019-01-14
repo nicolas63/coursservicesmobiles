@@ -135,7 +135,7 @@ Plusieurs stack technique :
 @snapend
 
 Blue green deployment <br/>
-HealthCheck <br/>
+Importance HealthCheck <br/>
 [Exemple en asp.net core](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/implement-resilient-applications/monitor-app-health)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%

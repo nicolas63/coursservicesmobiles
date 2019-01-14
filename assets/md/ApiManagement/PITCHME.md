@@ -194,9 +194,7 @@ Kong, Gravitee,etc
 3. API Gateway : Pattern
 @snapend
 
-@snap[south span-80]
 ![alt Text](assets/img/BFF.png)
-@snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

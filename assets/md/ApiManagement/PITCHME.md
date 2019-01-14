@@ -194,7 +194,7 @@ Kong, Gravitee,etc
 3. API Gateway : Pattern
 @snapend
 
-@snap[south span-100]
+@snap[south span-80]
 ![alt Text](assets/img/BFF.png)
 @snapend
 

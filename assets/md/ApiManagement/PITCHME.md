@@ -216,5 +216,5 @@ En résumé c'est quoi ?
 Microservices : Asp.net core
 @snapend
 
-[eBook]https://aka.ms/microservicesebook <br/>
-[Exemple]https://github.com/dotnet-architecture/eshopOnContainerss
+[eBook](https://aka.ms/microservicesebook) <br/>
+[Exemple](https://github.com/dotnet-architecture/eshopOnContainerss)

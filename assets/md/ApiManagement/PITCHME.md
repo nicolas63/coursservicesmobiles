@@ -217,4 +217,14 @@ Microservices : Asp.net core
 @snapend
 
 [eBook](https://aka.ms/microservicesebook) <br/>
-[Exemple](https://github.com/dotnet-architecture/eshopOnContainerss)
+[Exemple](https://github.com/dotnet-architecture/eshopOnContainers)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+Conférence informatique :
+@snapend
+
+[Lavajug](https://www.lavajug.org/) : 23 janvier
+[MugInClermont](https://www.meetup.com/fr-FR/MugInClermont/)
+[ClermontT'ech](https://www.clermontech.org/)

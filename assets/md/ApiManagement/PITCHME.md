@@ -10,7 +10,17 @@ Point sur le projet d'exemple
 @snap[east span-70]
 Mise en place de l'intégration continue sur gitlab <br/>
 ![alt text](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)
+Pour aller plus loin déploiement 
 @snapend
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. Point sur le projet d'exemple  : Pour aller plus loin 
+@snapend
+
+Déploiment continu <br/>
+![alt text](https://gitlab.iut-clermont.uca.fr/niraymon/siteclubinfo)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -48,8 +58,10 @@ Demo swagger
 2. API Management : Administration
 @snapend
 
-Portail de management de l'api<br/>
-Pour les développeurs les informations dont ils ont besoins (statistiques)
+- Portail de management de l'api
+- Enrôlement des services et nouvelles API 
+- Pour les développeurs les informations dont ils ont besoins (statistiques)
+- Gestion des droits 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -57,7 +69,8 @@ Pour les développeurs les informations dont ils ont besoins (statistiques)
 2. API Management : Rate Limiting
 @snapend
 
-Limite du traffic pour ne pas surcharger l'infrastructure
+Limite du traffic pour ne pas surcharger l'infrastructure<br/>
+Application de quotas
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -122,6 +135,8 @@ Plusieurs stack technique :
 @snapend
 
 Blue green deployment 
+HealthCheck 
+![alt text](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/implement-resilient-applications/monitor-app-health)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -137,12 +152,15 @@ Demo docker
 2. API Management : Service discovery
 @snapend
 
-Exemple Consul
+Consultation et localisation des services disponibles <br/>
+@css[text-blue](Consul)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
 3. API Gateway 
 @snapend
+
+Qu'est-ce que c'est ? 
 
 +++?image=assets/img/api-consumers.png
 
@@ -161,6 +179,22 @@ Exemple Consul
 @snapend
 
 Kong, Gravitee,etc
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API Gateway : Pattern
+@snapend
+
+@css[text-blue](B)ackend @css[text-blue](F)or @css[text-blue](F)ront-End
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. API Gateway : Pattern
+@snapend
+
+![alt Text](assets/img/BFF.png)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

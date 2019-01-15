@@ -222,6 +222,14 @@ Microservices : Asp.net core
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
+Formation en ligne : 
+@snapend
+
+https://docs.microsoft.com/fr-fr/learn/
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
 Conférence informatique :
 @snapend
 

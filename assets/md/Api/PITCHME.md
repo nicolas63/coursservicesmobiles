@@ -37,7 +37,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 
 @snapend
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : URI  
@@ -47,7 +47,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 
 ![alt text](https://i.stack.imgur.com/mcTKf.jpg)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Le protocole HTTP  
@@ -58,7 +58,7 @@ HTTP/0.9 (1990) : une ligne <br/>
 GET /monfichier.html
 ```
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Le protocole HTTP  
@@ -76,7 +76,7 @@ Une page avec une image
 </HTML>
 ```
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Le protocole HTTP  
@@ -94,7 +94,7 @@ User-Agent : Mozilla/4.0 (compatible; MSIE 5.0; Windows 95)
 Contenu
 ```
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Le protocole HTTP  
@@ -109,7 +109,7 @@ Content-Length : 1245
 Contenu
 ```
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Le protocole HTTP  
@@ -121,7 +121,7 @@ HTTP/2 (mai 2015) : Amélioration des performances <br/>
 - Compression des en-têtes 
 - En janvier 2018, 23.9% des sites web utilisent HTTP/2
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : REST 
@@ -135,7 +135,7 @@ HTTP/2 (mai 2015) : Amélioration des performances <br/>
  4. Client / Serveur : "Separation of Concerns"
  5. Layered
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : REST 
@@ -147,7 +147,7 @@ L’interface est uniforme à tous les niveaux. Tous les éléments (et connecte
 
 Chaque ressource est identifiée de façon unique et canonicalisée avec son URL.
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : REST 
@@ -157,7 +157,7 @@ Chaque ressource est identifiée de façon unique et canonicalisée avec son URL
 
 Une API REST ne doit pas maintenir de session.
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : REST 
@@ -169,7 +169,7 @@ Il doit être possible de mettre les ressources en cache à tous les niveaux (fr
 
 Il doit être possible d’utiliser les implémentations standards de cache HTTP.
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : REST 
@@ -181,7 +181,7 @@ L’API REST n’est pas concernée par l’affichage, les interactions utilisat
 
 Tous ces éléments doivent être gérés par le client (Ex. : application web frontend)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : REST 
@@ -192,7 +192,7 @@ Tous ces éléments doivent être gérés par le client (Ex. : application web f
 La présence de “connecteurs” intermédiaires doit être implicite pour le client et le serveur (composant de cache / sécurité etc…)
 
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Utilisation des verbes HTTP 
@@ -203,7 +203,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 @css[text-blue](PUT) : Mise à jour d'une ressource<br/>
 @css[text-blue](DELETE) : Supression d'une ressource<br/>
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Utilisation des verbes HTTP 
@@ -216,7 +216,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 - 202 : NO Content 
 <br/>
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Utilisation des verbes HTTP  
@@ -227,7 +227,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 - 302 : Found
 - 304 : Not Modified
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Utilisation des verbes HTTP  
@@ -242,7 +242,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 - 406 : Not Acceptable
 - 415 : Unsupported Media Type
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Utilisation des verbes HTTP  
@@ -255,7 +255,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 
 [Et bien plus ...](https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Niveau de maturité REST
@@ -264,7 +264,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 Richardson Maturity Model <br/>
 ![alt text](https://zestedesavoir.com/media/galleries/713/c34c43b3-955d-467f-ad3e-9f23ca42eec4.png)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Niveau de maturité REST
@@ -273,7 +273,7 @@ Richardson Maturity Model <br/>
 @css[text-blue](Niveau 0, le RPC sur HTTP en POX) (SOAP, XML-RPC) <br/>
 ![alt text](assets/img/level0.png)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Niveau de maturité REST
@@ -282,7 +282,7 @@ Richardson Maturity Model <br/>
 @css[text-blue](Niveau 1, L’utilisation de ressources différenciées)<br/>
 ![alt text](assets/img/level1.png)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Niveau de maturité REST
@@ -291,7 +291,7 @@ Richardson Maturity Model <br/>
 @css[text-blue](Niveau 2, L’utilisation des verbes et des codes retours HTTP)<br/>
 ![alt text](assets/img/level2.png)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Niveau de maturité REST
@@ -301,7 +301,7 @@ Richardson Maturity Model <br/>
 ![alt text](assets/img/level3.png)
 
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : HATEOAS
@@ -310,7 +310,7 @@ Richardson Maturity Model <br/>
 @css[text-blue](H)ypertext @css[text-blue](A)s @css[text-blue](T)he @css[text-blue](E)ngine @css[text-blue](O)f <br/>
 @css[text-blue](A)pplication @css[text-blue](S)tate
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : HATEOAS
@@ -318,7 +318,7 @@ Richardson Maturity Model <br/>
 
 ![alt text](assets/img/hateoassample.png)
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Type de contenu
@@ -326,7 +326,7 @@ Richardson Maturity Model <br/>
 
 text/plain, application/xml, text/html, application/json, image/gif, image/jpeg , etc 
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. API RESTful : Négociation de contenu
@@ -338,7 +338,7 @@ Content-Type: application/json <br/> permet de définir le contenu envoyé dans 
 Accept: application/json <br/> permet de définir le contenu souhaité du client 
 
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 4. Comment créer une API en asp.net core
@@ -349,7 +349,7 @@ Accept: application/json <br/> permet de définir le contenu souhaité du client
 dotnet new webapi -o [NomDeVotreProjet]
 ```
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 4. Comment créer une API en asp.net core
@@ -389,7 +389,7 @@ public class TodoController : ControllerBase
 @[12-24](Récupération d'un item par sont id avec la route : /api/todo/1)
 
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 4. Comment documenter une API ?
@@ -400,7 +400,7 @@ Utilisation de swagger
 ![Alt Text](assets/img/swagger-ui.png)
 
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 5. Comment versionner une API ?
@@ -409,7 +409,7 @@ Utilisation de swagger
 Un paramètre dans le header : <br/>
 services.AddApiVersioning(o => o.ApiVersionReader = new HeaderApiVersionReader("api-version"));
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 5. Comment versionner une API ?
@@ -437,7 +437,7 @@ namespace Product.CommandService.Controllers.Product.V2
 }
 ```
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 5. Comment versionner une API ?
@@ -446,7 +446,7 @@ namespace Product.CommandService.Controllers.Product.V2
 Directement dans l'url : @css[text-blue](/api/v1/maressource) : <br/>
 services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
 
-+++?image=template/img/bg/blue.jpg&position=top&size=100% 15%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 5. Comment versionner une API ?

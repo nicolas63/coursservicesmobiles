@@ -19,7 +19,7 @@ https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel
 @snapend
 
 Pour aller plus loin : <br/>
-Déploiment continu <br/>
+Déploiement continu <br/>
 https://gitlab.iut-clermont.uca.fr/niraymon/siteclubinfo
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
@@ -86,7 +86,7 @@ Permet des temps de réponse plus court<br/>
 2. API Management : Quality of service
 @snapend
 
-Rejoue les requêtes en echecs 
+Rejoue les requêtes en échec 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

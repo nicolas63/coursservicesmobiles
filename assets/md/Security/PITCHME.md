@@ -51,7 +51,7 @@ Les différentes façon de sécuriser une appplication aujourd'hui
 2. pré-requis : 
 @snapend
 
-![alt Text](assets/img/HTTP-HTTPSç.jpg)
+![alt Text](assets/img/HTTP-HTTPS.jpg)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

@@ -41,17 +41,57 @@ A t'on le droit de ... ?
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. Sécurité tour d'horizon  : 
+2. Sécurité tour d'horizon  : 
 @snapend
 
 Les différentes façon de sécuriser une appplication aujourd'hui
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. pré-requis : 
+@snapend
+
+![alt Text](assets/img/HTTP-HTTPSç.jpg)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. Sécurité tour d'horizon  : 
+1. Mot de passe : 
 @snapend
 
+![alt Text](assets/img/flow-cookie-session-large.jpg)
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. Mot de passe : 
+@snapend
+
+https://haveibeenpwned.com/ <br/>
+https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. Double facteurs : 
+@snapend
+
+![alt Text](assets/img/double_factors.jpg)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. Token : 
+@snapend
+
+![alt Text](assets/img/flow-cookie-session-large.jpg)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2.  Token format : JWT 
+@snapends
+
+Exemples (https://jwt.io/)
 
 

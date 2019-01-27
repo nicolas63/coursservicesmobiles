@@ -4,6 +4,9 @@ security:
  autorisation 
 
 les diféérent moyen de sécurisé 
+
+ protocol https / firewall
+
  pwd
  token 
  oauth flow 

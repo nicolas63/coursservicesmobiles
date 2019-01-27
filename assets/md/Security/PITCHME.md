@@ -108,7 +108,7 @@ Exemples (https://jwt.io/)
 2. OAuth2 : Authorisation
 @snapends
 
-Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprendre-loauth-2-0-par-lexemple/)
+[Autres types de flux OAuth2](https://blog.axawebcenter.fr/2016/03/oauth-comprendre-loauth-2-0-par-lexemple/)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -116,5 +116,7 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 2. Open ID Connect 
 @snapends
 
+@snap[span-65]
 ![alt Text](assets/img/flow.png)
+@snapends
 

@@ -103,6 +103,7 @@ Exemples (https://jwt.io/)
 
 ![alt Text](assets/img/DiagSeqImplicite.png.jpg)
 
++++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
 
 @snap[north text-white span-100]
 2. OAuth2 : Authorisation

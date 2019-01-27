@@ -121,3 +121,25 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 ![alt Text](assets/img/flow.png)
 @snapend
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. Sécurité en asp.net core : 
+@snapends
+
+
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+3. Sécurité en asp.net core : 
+@snapends
+
+Demo 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+4. Fournisseurs d'identité : 
+@snapends
+

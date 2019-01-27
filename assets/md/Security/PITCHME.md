@@ -48,7 +48,7 @@ Les différentes façon de sécuriser une appplication aujourd'hui
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. pré-requis : 
+2. prérequis : 
 @snapend
 
 ![alt Text](assets/img/HTTP-HTTPS.jpg)
@@ -56,7 +56,7 @@ Les différentes façon de sécuriser une appplication aujourd'hui
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. Mot de passe : 
+2. Mot de passe : 
 @snapend
 
 ![alt Text](assets/img/flow-cookie-session-large.jpg)
@@ -94,4 +94,27 @@ https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
 
 Exemples (https://jwt.io/)
 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. OAuth2 : Authorisation
+@snapends
+
+![alt Text](assets/img/DiagSeqImplicite.png.jpg)
+
+
+@snap[north text-white span-100]
+2. OAuth2 : Authorisation
+@snapends
+
+Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprendre-loauth-2-0-par-lexemple/)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. Open ID Connect 
+@snapends
+
+![alt Text](assets/img/flow.png)
 

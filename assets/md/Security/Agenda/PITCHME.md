@@ -4,8 +4,9 @@ Pour aujourd'hui
 
 @snap[east text-white span-45]
 @ol[split-screen-list text-08]
-- Point sur le projet d'exemple 
-- API Management
-- API Gateway
+- Authentification et Authorisation 
+- Sécurité tour d'horizon
+- Sécurité en asp.net core 
+- Fournisseurs d'identité 
 @olend
 @snapend

@@ -1,28 +1,51 @@
-security:
- identitfication
- authentification
- autorisation 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+@snap[north text-white span-100]
+1. Authentification et Authorisation : 
+@snapend
 
-les diféérent moyen de sécurisé 
- pwd
- token 
- oauth flow 
-  Authentication
- open id connect flow 
-  Authorisation
+Ne pas confondre ! 
 
- Token format 
-  JWT 
- two factors ? 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+@snap[north text-white span-100]
+1. Authentification et Authorisation : Authentification
+@snapend
 
-et en asp.net ? 
- security en asp.net 
+Qui-est ce ? 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+@snap[north text-white span-100]
+1. Authentification et Authorisation : Authentification
+@snapend
+
+Facteurs d'Authentification : <br/>
+
+4 types : 
+    - Facteur mémoriel : ce qu'on sait (mot de passe, nom de parents, etc )
+    - Facteur matériel : ce qu'on a (une clé, un badge)
+    - Facteur corporel : ce qu'on montre (voix, empreinte)
+    - Facteur réactionnel : ce qu'on sait faire (geste, signature)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+@snap[north text-white span-100]
+1. Authentification et Authorisation : Authentification
+@snapend
+
+Qui-est ce ? 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. Sécurité tour d'horizon  : 
+@snapend
+
+Les différentes façon de sécuriser une appplication aujourd'hui
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. Sécurité tour d'horizon  : 
+@snapend
 
 
-problématique 1 authentification / api 
- identity provider => identity access management  
-  - user management central 
-  - password policies 
-  - same account 
-  - etc 
-  
+
+

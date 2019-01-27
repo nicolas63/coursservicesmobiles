@@ -33,8 +33,9 @@ Qui-est ce ?
 ![alt Text](assets/img/Approved.jpg)
 @snapend
 
-@snap[east]
-Que peut-on faire ? A t'on le droit de ... ? 
+@snap[east span-70]
+Que peut-on faire ? <br/>
+A t'on le droit de ... ? 
 @snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%

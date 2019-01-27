@@ -5,4 +5,5 @@
 ---?include=assets/md/Api/PITCHME.md
 ---?include=assets/md/ApiManagement/Agenda/PITCHME.md
 +++?include=assets/md/ApiManagement/PITCHME.md
----?include=assets/md/Security/PITCHME.md
+---?include=assets/md/Security/Agenda/PITCHME.md
++++?include=assets/md/Security/PITCHME.md

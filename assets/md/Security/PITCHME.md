@@ -112,11 +112,11 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 
 +++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
 @snap[west text-white]
-@size[3em](2. Open ID Connect )
+2. Open ID Connect 
 @snapend
 
 
-@snap[north-east template-note text-gray]
+@snap[east]
 ![alt Text](assets/img/flow.png)
 @snapend
 

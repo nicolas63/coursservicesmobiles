@@ -17,7 +17,7 @@ Qui-est ce ?
 1. Authentification 
 @snapend
 
-Facteurs d'Authentification : 4 types<br/>
+4 types facteurs d'authentification : <br/>
 
  - Facteur mémoriel : ce qu'on sait (mot de passe, nom de parents, etc )
  - Facteur matériel : ce qu'on a (une clé, un badge)
@@ -29,7 +29,13 @@ Facteurs d'Authentification : 4 types<br/>
 1. Authorisation 
 @snapend
 
+@snap[west]
+![alt Text](assets/img/Approved.jpg)
+@snapend
+
+@snap[east]
 Que peut-on faire ? A t'on le droit de ... ? 
+@snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

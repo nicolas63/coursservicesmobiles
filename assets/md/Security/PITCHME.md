@@ -101,9 +101,9 @@ Exemples (https://jwt.io/)
 2. OAuth2 : Authorisation
 @snapends
 
-![alt Text](assets/img/DiagSeqImplicite.png.jpg)
+![alt Text](assets/img/DiagSeqImplicite.png)
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=30% 100%
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 2. OAuth2 : Authorisation
@@ -117,7 +117,7 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 @snapend
 
 
-@snap[east]
+@snap[east span-65]
 ![alt Text](assets/img/flow.png)
 @snapend
 

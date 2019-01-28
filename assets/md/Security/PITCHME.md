@@ -121,7 +121,19 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. OAuth2 : refresh token
+2. OAuth2 : Roles
+@snapends
+
+4 roles : 
+- Le détenteur des ressources (Resource Owner) : L'utilisateur (vous)  
+- Le serveur de ressources (Resource Server) : Serveur avec des ressources à protégées 
+- Application Cliente : L'application qui veut consomer les resources 
+- Authorisation server : Serveur qui fornit le token 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. OAuth2 : refresh token
 @snapends
 
 ![alt Text](assets/img/refresh-token.png)

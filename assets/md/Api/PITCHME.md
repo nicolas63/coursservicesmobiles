@@ -397,7 +397,7 @@ public class TodoController : ControllerBase
 
 Utilisation de swagger
 
-![Alt Text](assets/img/swagger-ui.png)
+![alt Text](assets/img/swagger-ui.png)
 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%

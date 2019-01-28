@@ -121,13 +121,21 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 ![alt Text](assets/img/flow.png)
 @snapend
 
++++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+@snap[west text-white span-65]
+2. Open ID </br> Connect 
+@snapend
+
+Open id Conntect vs Oauth <br/>
+
+
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
 3. Sécurité en asp.net core : 
 @snapends
 
-
+Gestion des utilisateurs, des rôles, etc
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -143,3 +151,38 @@ Demo
 4. Fournisseurs d'identité : 
 @snapends
 
+@css[text-blue](I)dentity @css[text-blue](A)ccess @css[text-blue](M)anagement  
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+4. Fournisseurs d'identité : Avantages
+@snapends
+
+- Gestion centralisé des utilisateurs 
+- Mise en place de role commun sur plusieurs application 
+- Pas besoin de refaire la mécanique d'authentification et d'authorisation sur chaque API 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+4. Fournisseurs d'identité : Que choisir 
+@snapends
+
+- En .net : Identity server 
+- Keycloak 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+4. Fournisseurs d'identité : 
+@snapends
+
+Demo 
+
+@snap[north text-white span-100]
+4. Fournisseurs d'identité : 
+@snapends
+
+Et les API Gateways dans tous ca ? <br/>
+![alt Text](assets/img/ApiGatewayWithIdentity.png)

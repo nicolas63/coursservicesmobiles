@@ -1,6 +1,6 @@
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
-1. Identification, Authentification et Authorisation : 
+1. Identification, Authentification et Autorisation : 
 @snapend
 
 Ne pas confondre ! 
@@ -33,7 +33,7 @@ Etes-vous vraiment ... ?
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
-1. Authorisation 
+1. Autorisation 
 @snapend
 
 @snap[west]
@@ -42,7 +42,7 @@ Etes-vous vraiment ... ?
 
 @snap[east span-70]
 Que peut-on faire ? <br/>
-A t'on le droit de ... ? 
+A-t-on le droit de ... ? 
 @snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
@@ -51,11 +51,11 @@ A t'on le droit de ... ?
 2. Sécurité tour d'horizon  : 
 @snapend
 
-Les différentes façon de sécuriser une appplication aujourd'hui
+Les différentes façons de sécuriser une application aujourd'hui
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. prérequis : 
+1. prérequis : 
 @snapend
 
 ![alt Text](assets/img/HTTP-HTTPS.jpg)
@@ -105,7 +105,7 @@ Exemples (https://jwt.io/)
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. OAuth2 : Authorisation
+2. OAuth2 : Autorisation
 @snapends
 
 ![alt Text](assets/img/DiagSeqImplicite.png)
@@ -113,7 +113,7 @@ Exemples (https://jwt.io/)
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. OAuth2 : Authorisation
+2. OAuth2 : Autorisation
 @snapends
 
 Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprendre-loauth-2-0-par-lexemple/)
@@ -126,14 +126,14 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 
 4 roles : 
 - Le détenteur des ressources (Resource Owner) : L'utilisateur (vous)  
-- Le serveur de ressources (Resource Server) : Serveur avec des ressources à protégées 
-- Application Cliente : L'application qui veut consomer les resources 
-- Authorisation server : Serveur qui fornit le token 
+- Le serveur de ressources (Resource Server) : Serveur avec des ressources à protéger
+- Application Cliente : L'application qui veut consommer les ressources 
+- Autorisation serveur : Serveur qui fournit le token 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. OAuth2 : refresh token
+2. OAuth2 : refresh token
 @snapends
 
 ![alt Text](assets/img/refresh-token.png)
@@ -198,9 +198,9 @@ Demo
 4. Fournisseurs d'identité : Avantages
 @snapends
 
-- Gestion centralisé des utilisateurs 
-- Mise en place de role commun sur plusieurs application 
-- Pas besoin de refaire la mécanique d'authentification et d'authorisation sur chaque API 
+- Gestion centralisée des utilisateurs 
+- Mise en place de rôle commun sur plusieurs applications
+- Pas besoin de refaire la mécanique d'authentification et d'autorisation sur chaque API 
 - Même compte sur toutes les applications
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
@@ -227,7 +227,7 @@ Demo
 4. Fournisseurs d'identité : 
 @snapends
 
-Et les API Gateways dans tous ca ? <br/>
+Et les API Gateways dans tout ça ? <br/>
 ![alt Text](assets/img/ApiGatewayWithIdentity.png)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
@@ -236,6 +236,6 @@ Et les API Gateways dans tous ca ? <br/>
 4. Fournisseurs d'identité : 
 @snapends
 
-Et les API Gateways dans tous ca ? <br/>
+Et les API Gateways dans tout ça ? <br/>
 
 Demo 

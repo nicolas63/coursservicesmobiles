@@ -1,16 +1,23 @@
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
-1. Authentification et Authorisation : 
+1. Identification, Authentification et Authorisation : 
 @snapend
 
 Ne pas confondre ! 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
-1. Authentification 
+1. Identification 
 @snapend
 
 Qui-est ce ? 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+@snap[north text-white span-100]
+1. Authentification 
+@snapend
+
+Etes-vous vraiment ... ? 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 @snap[north text-white span-100]
@@ -121,10 +128,11 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 ![alt Text](assets/img/flow.png)
 @snapend
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
-@snap[west text-white span-65]
-2. Open ID </br> Connect 
-@snapend
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. Open ID Connect 
+@snapends
 
 Open id Conntect vs Oauth <br/>
 
@@ -162,6 +170,7 @@ Demo
 - Gestion centralisé des utilisateurs 
 - Mise en place de role commun sur plusieurs application 
 - Pas besoin de refaire la mécanique d'authentification et d'authorisation sur chaque API 
+- Même compte sur toutes les applications
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -180,9 +189,21 @@ Demo
 
 Demo 
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
 @snap[north text-white span-100]
 4. Fournisseurs d'identité : 
 @snapends
 
 Et les API Gateways dans tous ca ? <br/>
 ![alt Text](assets/img/ApiGatewayWithIdentity.png)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+4. Fournisseurs d'identité : 
+@snapends
+
+Et les API Gateways dans tous ca ? <br/>
+
+Demo 

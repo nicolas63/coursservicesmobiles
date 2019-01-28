@@ -118,6 +118,14 @@ Exemples (https://jwt.io/)
 
 Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprendre-loauth-2-0-par-lexemple/)
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+2. OAuth2 : refresh token
+@snapends
+
+![alt Text](assets/img/refresh-token.png)
+
 +++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
 @snap[west text-white span-65]
 2. Open ID </br> Connect 
@@ -134,9 +142,20 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 2. Open ID Connect 
 @snapends
 
-Open id Conntect vs Oauth <br/>
+Open id Connect vs Oauth 
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
+@snap[north text-white span-100]
+2. Open ID Connect : endpoints
+@snapends
+
+- authorization : pour authentifier un utilisateur
+- token : pour demander un token (access / refresh / ID)
+- user info : pour récupérer des informations sur l’utilisateur (son identité, ses droits)
+- revocation : pour supprimer un token (access / refresh)
+- introspection: pour valider un token (access / refresh)
+  
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
@@ -175,11 +194,12 @@ Demo
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-4. Fournisseurs d'identité : Que choisir 
+4. Fournisseurs d'identité : Que choisir ?
 @snapends
 
 - En .net : Identity server 
 - Keycloak 
+- ...
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

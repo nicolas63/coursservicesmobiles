@@ -55,7 +55,7 @@ Les différentes façons de sécuriser une application aujourd'hui
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-1. prérequis : 
+2. prérequis : 
 @snapend
 
 ![alt Text](assets/img/HTTP-HTTPS.jpg)

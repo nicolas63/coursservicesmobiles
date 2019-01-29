@@ -24,7 +24,7 @@ Etes-vous vraiment ... ?
 1. Authentification 
 @snapend
 
-4 types facteurs d'authentification : <br/>
+4 types de facteurs d'authentification : <br/>
 
  - Facteur mémoriel : ce qu'on sait (mot de passe, nom de parents, etc )
  - Facteur matériel : ce qu'on a (une clé, un badge)
@@ -125,7 +125,7 @@ Autres types de flux OAuth2 (https://blog.axawebcenter.fr/2016/03/oauth-comprend
 @snapends
 
 4 roles : 
-- Le détenteur des ressources (Resource Owner) : L'utilisateur (vous)  
+- Le détenteur des ressource (Resource Owner) : L'utilisateur (vous)  
 - Le serveur de ressources (Resource Server) : Serveur avec des ressources à protéger
 - Application Cliente : L'application qui veut consommer les ressources 
 - Autorisation serveur : Serveur qui fournit le token 
@@ -162,7 +162,7 @@ Open id Connect vs Oauth
 2. Open ID Connect : endpoints
 @snapends
 
-- authorization : pour authentifier un utilisateur
+- autorisation : pour authentifier un utilisateur
 - token : pour demander un token (access / refresh / ID)
 - user info : pour récupérer des informations sur l’utilisateur (son identité, ses droits)
 - revocation : pour supprimer un token (access / refresh)

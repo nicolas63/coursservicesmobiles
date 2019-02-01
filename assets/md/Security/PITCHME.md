@@ -91,7 +91,7 @@ https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
 2. Token : 
 @snapend
 
-![alt Text](assets/img/flow-cookie-session-large.jpg)
+![alt Text](assets/img/flow-jwt-large.jpg)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

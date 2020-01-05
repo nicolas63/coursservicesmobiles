@@ -10,9 +10,12 @@ Présentation du projet et de la notation
 @snap[east span-70]
 Un projet commun avec<br/>le cours de Windows phone<br/><br/>
 
-[Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/Cours2019/Notation.md) <br/><br/>
+[Une grille de notation](https://github.com/nicolas63/coursservicesmobiles/blob/master/Notation.md) <br/><br/>
 
-[Un exemple de projet](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)<br/>
+Des exemples de projet : <br/>
+[ScoreurUniversel](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)<br/>
+[SiDaWApi](https://gitlab.iut-clermont.uca.fr/mchsamples/mchsamples-.net/advancedprojects/sidawapi)<br/>
+[Des vidéos]()
 @snapend
 
 
@@ -40,7 +43,7 @@ Facade permettant d'exposé des données => ici au travers de web services
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-3. API RESTful : URI  
+1. API RESTful : URI  
 @snapend
 
 @css[text-blue](U)niform @css[text-blue](R)esource @css[text-blue](I)dentifier<br/>

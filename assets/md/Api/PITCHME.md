@@ -399,6 +399,13 @@ Utilisation de swagger
 
 ![alt Text](assets/img/swagger-ui.png)
 
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+5. Avantage de la norme OpenApi
+@snapend
+
+Génération de Client ou bien du serveur grâce à la documentation
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -412,7 +419,7 @@ services.AddApiVersioning(o => o.ApiVersionReader = new HeaderApiVersionReader("
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-5. Comment versionner une API ?
+6. Comment versionner une API ?
 @snapend
 
 ```csharp
@@ -474,7 +481,7 @@ public class HelloWorld2Controller : Controller {
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-6. Les WebSockets : problème d'une API REST 
+7. Les WebSockets : problème d'une API REST 
 @snapend
 
 REST : questions / réponses <br/>
@@ -482,7 +489,7 @@ REST : questions / réponses <br/>
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-6. Les WebSockets :
+7. Les WebSockets :
 @snapend
 
 Protocole permettant d'avoir des échanges bi-directionnel
@@ -490,7 +497,7 @@ Protocole permettant d'avoir des échanges bi-directionnel
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-6. Les WebSockets :
+7. Les WebSockets :
 @snapend
 
 ![alt Text](assets/img/websocket.png)
@@ -498,7 +505,54 @@ Protocole permettant d'avoir des échanges bi-directionnel
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-6. Les WebSockets : Utilisation des websockets en asp.net core
+7. Les WebSockets : websockets en asp.net core
 @snapend
 
 Demo avec @css[text-blue](SignalR)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+8. GRPC : problème d'une API REST 
+@snapend
+
+Performance () xml < json < binaires )
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+8. GRPC :
+@snapend
+
+Protocole basée sur @css[text-blue](HTTP/2) (donc avec une serialisation binaire) <br/>
+Open source initialement développé par Google <br/>
+Supporte tous langages
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+8. GRPC : Comparaison avec REST
+@snapend
+
+
+| Feature          | gRPC                                               | HTTP APIs with JSON           |
+| ---------------- | -------------------------------------------------- | ----------------------------- |
+| Contract         | Required (*.proto*)                                | Optional (OpenAPI)            |
+| Protocol         | HTTP/2                                             | HTTP                          |
+| Payload          | [Protobuf (small, binary)](#performance)           | JSON (large, human readable)  |
+| Prescriptiveness | [Strict specification](#strict-specification)      | Loose. Any HTTP is valid.     |
+| Streaming        | [Client, server, bi-directional](#streaming)       | Client, server                |
+| Browser support  | [No (requires grpc-web)](#limited-browser-support) | Yes                           |
+| Security         | Transport (TLS)                                    | Transport (TLS)               |
+| Client code-generation | [Yes](#code-generation)                      | OpenAPI + third-party tooling |
+
+![alt text](https://docs.microsoft.com/fr-fr/aspnet/core/grpc/comparison?view=aspnetcore-3.1)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+8. GRPC : grpc en asp.net core
+@snapend
+
+Introduction à partir de asp.net core 3 <br/>
+Demo

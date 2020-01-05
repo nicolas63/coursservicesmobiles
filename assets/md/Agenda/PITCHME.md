@@ -25,6 +25,9 @@ Pour aujourd'hui
 - Comment créer une API en asp.net core ?
 - Comment documenter une API ?
 - Comment versionner une API ?
+- WebSockets
+- GRPC
+- GraphQL
 
 @olend
 @snapend

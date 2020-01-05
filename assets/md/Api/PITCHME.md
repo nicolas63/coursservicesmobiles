@@ -525,7 +525,7 @@ Performance ( xml < json < binaires )
 @snapend
 
 Protocole basée sur @css[text-blue](HTTP/2) (donc avec une serialisation binaire) <br/>
-Open source initialement développé par Google <br/>
+Open source initialement développé par Google en 2015<br/>
 Supporte tous langages
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
@@ -565,7 +565,7 @@ Supporte tous langages
 | Client code-generation | [Yes](#code-generation)                      | OpenAPI + third-party tooling |
 
 
-![alt text](https://docs.microsoft.com/fr-fr/aspnet/core/grpc/comparison?view=aspnetcore-3.1)
+[source](https://docs.microsoft.com/fr-fr/aspnet/core/grpc/comparison?view=aspnetcore-3.1)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -575,3 +575,72 @@ Supporte tous langages
 
 Introduction à partir de asp.net core 3 <br/>
 Demo
+
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : problème d'une API REST 
+@snapend
+
+Description de tous les échanges et de tous les filtres possibles 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : problème d'une API REST 
+@snapend
+
+Créé par Facebook en 2012 <br/>
+Autre façon de faire des API <br/>
+Permet de requêter des Graphes 
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : Schema
+@snapend
+
+![alt Text](assets/img/GraphQLSchema.png)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : Query
+@snapend
+
+![alt Text](assets/img/GraphQLQuery.png)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : Mutation
+@snapend
+
+![alt Text](assets/img/GraphQLMutation.png)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : GraphQL VS REST 
+@snapend
+
+![alt Text](assets/img/GraphQLvsRest.png)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : Plusieurs approches
+@snapend
+
+![alt Text](assets/img/GraphQLCodeFirst.png)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+9. GraphQL : GraphQL en asp.net core 
+@snapend
+
+Demo
+
+

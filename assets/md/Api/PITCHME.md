@@ -611,7 +611,7 @@ Description de tous les échanges et de tous les filtres possibles
 9. GraphQL : Query
 @snapend
 
-@snap[span-70]
+@snap[span-65]
 ![alt Text](assets/img/GraphQLQuery.png)
 @snapend
 

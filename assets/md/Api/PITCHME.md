@@ -591,9 +591,9 @@ Description de tous les échanges et de tous les filtres possibles
 9. GraphQL : problème d'une API REST 
 @snapend
 
-Créé par Facebook en 2012 <br/>
-Autre façon de faire des API <br/>
-Permet de requêter des Graphes 
+- Créé par Facebook en 2012 <br/>
+- Autre façon de faire des API <br/>
+- Permet de requêter des Graphes 
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -601,7 +601,9 @@ Permet de requêter des Graphes
 9. GraphQL : Schema
 @snapend
 
+@snap[span-65]
 ![alt Text](assets/img/GraphQLSchema.png)
+@snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -609,7 +611,9 @@ Permet de requêter des Graphes
 9. GraphQL : Query
 @snapend
 
+@snap[span-65]
 ![alt Text](assets/img/GraphQLQuery.png)
+@snapend
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

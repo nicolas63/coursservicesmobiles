@@ -26,7 +26,7 @@ Attention cette grille de notation est donnée à titre indicatif et le barème 
 ## Sécurité (*5 points*)
 
 - Mise en place (*2 points*)
-- Utilisation OpenId Connect et OAuth (*2 points*)
+- Utilisation OpenId Connect et OAuth (*1 points*)
 - Explication de cette partie sur 1 à 2 pages (*2 points*)
 
 ## Pour aller plus loin 

@@ -71,7 +71,15 @@ Les différentes façons de sécuriser une application aujourd'hui
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-2. Mot de passe : 
+2. Mot de passe : Basic Auth
+@snapend
+
+![alt Text](assets/img/BasicAuth.jpg)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+1. Mot de passe : 
 @snapend
 
 https://haveibeenpwned.com/ <br/>

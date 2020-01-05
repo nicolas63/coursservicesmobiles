@@ -233,6 +233,6 @@ https://docs.microsoft.com/fr-fr/learn/
 Conférence informatique :
 @snapend
 
-23 janvier : [Lavajug](https://www.lavajug.org/) <br/>
+[Lavajug](https://www.lavajug.org/) <br/>
 [MugInClermont](https://www.meetup.com/fr-FR/MugInClermont/) <br/>
 [Clermont'ech](https://www.clermontech.org/)

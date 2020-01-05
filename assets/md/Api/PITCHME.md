@@ -213,7 +213,7 @@ La présence de “connecteurs” intermédiaires doit être implicite pour le c
 @css[text-blue](2XX) : Succès<br/>
 - 200 : OK 
 - 201 : CREATED 
-- 202 : NO Content 
+- 204 : NO Content 
 <br/>
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
@@ -341,7 +341,7 @@ Accept: application/json <br/> permet de définir le contenu souhaité du client
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-4. Comment créer une API en asp.net core
+4. Comment créer une API REST en asp.net core
 @snapend
 
 
@@ -352,7 +352,7 @@ dotnet new webapi -o [NomDeVotreProjet]
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-4. Comment créer une API en asp.net core
+4. Comment créer une API REST en asp.net core
 @snapend
 
 Les controller 
@@ -392,7 +392,7 @@ public class TodoController : ControllerBase
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-4. Comment documenter une API ?
+5. Comment documenter une API ?
 @snapend
 
 Utilisation de swagger
@@ -403,7 +403,7 @@ Utilisation de swagger
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-5. Comment versionner une API ?
+6. Comment versionner une API ?
 @snapend
 
 Un paramètre dans le header : <br/>
@@ -440,7 +440,7 @@ namespace Product.CommandService.Controllers.Product.V2
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-5. Comment versionner une API ?
+6. Comment versionner une API ?
 @snapend
 
 Directement dans l'url : @css[text-blue](/api/v1/maressource) : <br/>
@@ -449,7 +449,7 @@ services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionRead
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
 @snap[north text-white span-100]
-5. Comment versionner une API ?
+6. Comment versionner une API ?
 @snapend
 
 ```csharp
@@ -468,4 +468,37 @@ public class HelloWorld2Controller : Controller {
  
     [HttpGet, MapToApiVersion( "3.0" )]
     public string GetV3() => "Hello world v3!";
-}```
+}
+```
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+6. Les WebSockets : problème d'une API REST 
+@snapend
+
+REST : questions / réponses <br/>
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+6. Les WebSockets :
+@snapend
+
+Protocole permettant d'avoir des échanges bi-directionnel
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+6. Les WebSockets :
+@snapend
+
+![alt Text](assets/img/websocket.png)
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+6. Les WebSockets : Utilisation des websockets en asp.net core
+@snapend
+
+Demo avec @css[text-blue](SignalR)

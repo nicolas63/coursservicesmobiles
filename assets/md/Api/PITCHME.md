@@ -516,7 +516,7 @@ Demo avec @css[text-blue](SignalR)
 8. GRPC : problème d'une API REST 
 @snapend
 
-Performance () xml < json < binaires )
+Performance ( xml < json < binaires )
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
@@ -540,11 +540,30 @@ Supporte tous langages
 | Contract         | Required (*.proto*)                                | Optional (OpenAPI)            |
 | Protocol         | HTTP/2                                             | HTTP                          |
 | Payload          | [Protobuf (small, binary)](#performance)           | JSON (large, human readable)  |
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+8. GRPC : Comparaison avec REST
+@snapend
+
+| Feature          | gRPC                                               | HTTP APIs with JSON           |
+| ---------------- | -------------------------------------------------- | ----------------------------- |
 | Prescriptiveness | [Strict specification](#strict-specification)      | Loose. Any HTTP is valid.     |
 | Streaming        | [Client, server, bi-directional](#streaming)       | Client, server                |
 | Browser support  | [No (requires grpc-web)](#limited-browser-support) | Yes                           |
+
++++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
+
+@snap[north text-white span-100]
+8. GRPC : Comparaison avec REST
+@snapend
+
+| Feature          | gRPC                                               | HTTP APIs with JSON           |
+| ---------------- | -------------------------------------------------- | ----------------------------- |
 | Security         | Transport (TLS)                                    | Transport (TLS)               |
 | Client code-generation | [Yes](#code-generation)                      | OpenAPI + third-party tooling |
+
 
 ![alt text](https://docs.microsoft.com/fr-fr/aspnet/core/grpc/comparison?view=aspnetcore-3.1)
 

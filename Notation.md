@@ -37,9 +37,10 @@ Attention cette grille de notation est donnée à titre indicatif et le barème 
 
 ## Documentation (20 points)
 
-- Schéma d'architecture globale de l'application  (*5 points*)
-- Description des choix des 2 types d'API (*4 points*)
-- Description du fonctionnement la solution globale (*4 points*)
-- Description de l'API Gateway et de la partie sécurité (*4 points*)
+- Le Readme (*2 points*) 
+- Schéma et description de l'architecture globale de l'application (1 schéma + lien entre partie , min 1 page) (*3 points*) - 
+- Description du fonctionnement la solution globale (illustrutration au niveau du code) (*2 points*)
+- Description des choix des 2 types d'API (d'un point de vue technique) (*3 points*)
+- Description de l'API Gateway et de la partie sécurité (1 page / partie) (*4 points*)
 - Comment les API répondent au besoins de votre client (*3 points*)
-- Retour d'une interview client (?)
+- Retour d'une interview client (*3 points*)

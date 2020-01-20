@@ -74,7 +74,7 @@ Les différentes façons de sécuriser une application aujourd'hui
 2. Mot de passe : Basic Auth
 @snapend
 
-![alt Text](assets/img/BasicAuth.jpg)
+![alt Text](assets/img/BasicAuth.png)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 

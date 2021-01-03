@@ -15,7 +15,7 @@ Un projet commun avec<br/>le cours de Windows phone<br/><br/>
 Des exemples de projet : <br/>
 [ScoreurUniversel](https://gitlab.iut-clermont.uca.fr/macheval/scoreuruniversel)<br/>
 [SiDaWApi](https://gitlab.iut-clermont.uca.fr/mchsamples/mchsamples-.net/advancedprojects/sidawapi)<br/>
-[Des vidéos]()
+[Des vidéos](https://gitlab.iut-clermont.uca.fr/mchsamples/mchsamples-.net/advancedprojects/sidawapi)
 @snapend
 
 

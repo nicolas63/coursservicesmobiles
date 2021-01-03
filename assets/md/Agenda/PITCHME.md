@@ -12,7 +12,7 @@ L'Agenda
 <br><br>
 @snapend
 
-+++
+---
 
 @snap[west text-16 text-bold text-italic text-blue span-50]
 Gestion de projet 

@@ -5,7 +5,7 @@
 ### Nicolas Raymond
 
 Diplomé à l'IUT de Clermont-Ferrand en 2016 <br/>
-Travail maintenant à CGI Clermont en tant que développeur et SRE <br/>
+Travail maintenant à CGI Clermont en tant que développeur et [SRE](https://sre.google/) <br/>
 Membre du MUG ([MugInClermont](https://www.meetup.com/fr-FR/MugInClermont/)) <br/>
 Mainteneur du projet [JHipster.NET](https://github.com/jhipster/jhipster-dotnetcore)
 

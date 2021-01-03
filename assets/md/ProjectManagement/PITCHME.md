@@ -4,13 +4,7 @@
 1. Gestion de projet
 @snapend
 
-@snap[north-east template-note text-gray]
-Gestion de projet
-@snapend
-
-@snap[east span-70]
 Merge request<br/><br/>
-
 
 ![alt text](assets/img/gitlab-flow.png)
 

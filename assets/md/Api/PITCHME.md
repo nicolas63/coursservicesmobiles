@@ -149,7 +149,7 @@ HTTP/2 (mai 2015) : Amélioration des performances <br/>
 L’interface est uniforme à tous les niveaux. Tous les éléments (et connecteurs) communiquent en utilisant la même interface.
 
 Chaque ressource est identifiée de façon unique et canonicalisée avec son URL.
-[Help](https://www.habilelabs.io/wp-content/uploads/2017/07/good-api-names.png
+[Help](https://www.habilelabs.io/wp-content/uploads/2017/07/good-api-names.png)
 
 +++?image=assets/img/bg/blue.jpg&position=top&size=100% 15%
 
